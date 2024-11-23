@@ -13,7 +13,7 @@ if __name__ == "__main__":
         if choice == 1:
             final_grade = 0
             student_name_input = input("What is the student's name: ").strip()
-            with open("students.txt") as student_file:
+            with open("Lab11/students.txt") as student_file:
                 student_list = student_file.readlines()
 
             for line in student_list:
